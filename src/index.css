@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #080808;
+  color: #f5f5f5;
+  font-family: 'Inter', system-ui, sans-serif;
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #333333;
+}
+
+/* Rank colors */
+.rank-legendary { color: #ff0000; }
+.rank-international-grandmaster { color: #ff0000; }
+.rank-grandmaster { color: #ff3333; }
+.rank-international-master { color: #ff8c00; }
+.rank-master { color: #ffbb55; }
+.rank-candidate-master { color: #aa00aa; }
+.rank-expert { color: #7070ff; }
+.rank-specialist { color: #03a89e; }
+.rank-pupil { color: #77ff77; }
+.rank-newbie { color: #cccccc; }
