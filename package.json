@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "preinstall": "npx only-allow pnpm"
   },
   "dependencies": {
     "@radix-ui/react-separator": "^1.1.8",
@@ -40,5 +41,9 @@
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.58.2",
     "vite": "^8.0.10"
+  },
+  "packageManager": "pnpm@11.1.1",
+  "engines": {
+    "pnpm": ">=11.0.0"
   }
 }
